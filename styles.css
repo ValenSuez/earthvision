@@ -24,12 +24,7 @@ body {
     background-color: #f4f4f9; 
   }
   
-  .login-container {
-    display: flex;
-    flex-direction: column;    
-    gap: 15px;                
-    width: 400px;              
-  }
+
   
   input, button {
     width: 100%;               
@@ -70,12 +65,21 @@ style
 }
 
 body {
-    background-color: #8E8987;
+    /* background-color: #8E8987; */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     padding: 20px;
+        background-image: url('background.jpg');
+        
+        background-repeat: no-repeat;
+        
+        background-size: cover;
+        
+        background-position: center;
+        
+        background-attachment: fixed;
 }
 .dashboard-container {
     display: flex;
